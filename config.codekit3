@@ -9,18 +9,11 @@
 	],
 "creatorBuild": "26148",
 "files": {
-	"\/_downloads.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_downloads.html",
-		"oF": 0
-		},
-	"\/build\/.gitignore": {
+	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/.gitignore",
+		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/favicon\/android-icon-192x192.png": {
@@ -63,7 +56,7 @@
 		"oAP": "\/favicon\/apple-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 1,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -165,14 +158,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"\/favicon\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/favicon\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"\/hkgrotesk\/hkgrotesk-light-.eot": {
 		"cB": 0,
@@ -285,6 +270,13 @@
 		"oAP": "\/hkgrotesk\/hkgrotesk-regular.woff",
 		"oF": 0
 		},
+	"\/index.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.htaccess",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -339,7 +331,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 593200272,
-	"displayValue": "ohmygrad.com",
+	"displayValue": "ohmygrad.github.io",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel",
 	"lastBuiltDate": 593202762
