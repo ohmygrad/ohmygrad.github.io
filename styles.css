@@ -203,6 +203,9 @@ h4 {
           color: black;
           opacity: 0.5;
         }
+        #wrapper.night footer ul li a {
+          color: black;
+        }
   #wrapper .overlay {
     width: 100%;
     height: 100%;
@@ -351,6 +354,9 @@ h4 {
         background-color: white;
         border: 1px solid black;
         left: 0; }
+      #wrapper.night .topCaption h1 {
+        color: white;
+      }
   #wrapper header .close {
     position: fixed;
     width: 30px;
