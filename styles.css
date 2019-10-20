@@ -193,10 +193,10 @@ h4 {
       #wrapper.night section.about .background:before {
         background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, black), to(black));
         background: linear-gradient(180deg, transparent 0%, black 70%, black 100%); }
-        #wrapper.night section.links ul .seperatorMonths .month {
+        #wrapper.night section.links ul .seperatorPosted .month {
           color: white;
         }
-        #wrapper.night section.links ul .seperatorYears .year {
+        #wrapper.night section.links ul .seperatorJobs .year {
           color: white;
         }
         #wrapper.night footer ul {
@@ -264,6 +264,21 @@ h4 {
         opacity: 0.8;
         -webkit-transform: scale(0.75);
                 transform: scale(0.75); }
+  #wrapper .topCaption {
+    text-align: center;
+    font-size: 38px;
+    line-height: 55px;
+    font-weight: bold;
+    color: black;
+  }
+  #wrapper .topCaption p {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgb(81, 84, 86);
+  }
   #wrapper header .about {
     width: 20px;
     padding: 10px;
@@ -532,27 +547,27 @@ h4 {
         @media screen and (max-width: 500px) {
           #wrapper section.links ul {
             margin-bottom: 40px; } }
-        #wrapper section.links ul .seperatorYears {
+        #wrapper section.links ul .seperatorJobs {
           width: 50%;
           display: block;
           float: left;
           margin-top: 50px;
           margin-bottom: 20px; }
-          #wrapper section.links ul .seperatorYears .year {
+          #wrapper section.links ul .seperatorJobs .year {
             display: inline-block;
             float: left;
             line-height: 38px;
             font-weight: bold;
             letter-spacing: 0.06em;
             color: black; }
-        #wrapper section.links ul .seperatorMonths {
+        #wrapper section.links ul .seperatorPosted {
           width: 50%;
           display: block;
           float: right;
           margin-top: 50px;
           margin-bottom: 20px;
           text-align: right; }
-          #wrapper section.links ul .seperatorMonths .month {
+          #wrapper section.links ul .seperatorPosted .month {
             display: inline-block;
             float: right;
             text-align: right;
